@@ -1,4 +1,8 @@
-﻿a
+﻿body{
+	color: #00008b;
+	background-color: #FFD700;
+}
+a
 {
 	color: red;
 }
@@ -9,9 +13,13 @@ h1
 	font-size: 200%;
 	margin: 0px 0px 10px;
 	font-style: italic;
+	color: red;
+	text-transform: uppercase;
 }
-
-
+h2{
+	color: red;
+	text-transform: uppercase;
+}
 p
 {
 	text-align:justify;
@@ -67,4 +75,13 @@ li
 	margin: 3px;
 	font-style: italic;
 }
+#f_vonal{
+	width: 800px;
+	height: 6px;
+	background-color: green;
 
+}
+.lista{
+	list-style-image:url(list.png) ;
+	background-color: white;
+}
